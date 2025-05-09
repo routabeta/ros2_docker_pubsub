@@ -1,18 +1,16 @@
 ## About
-This is a Dockerized ROS2 Publisher/Subscriber demo project. It repeatedly sends a randomly generated float from publisher to subscriber,  
-along with a message count. The goal of the project is to get comfortable writing custom ROS 2 nodes, launch files, and then Dockerizing  
-for consistency across environments.
+This is a Dockerized ROS2 Publisher/Subscriber demo project. It repeatedly sends a randomly generated float from publisher to subscriber, along with a message count. The goal of the project is to get comfortable writing custom ROS 2 nodes, launch files, and then Dockerizing for consistency across environments.  
 
 ## Features
 - ROS 2 Jazzy custom publisher and subscriber nodes
 - ROS 2 Jazzy launch file to bring up multiple nodes
-- Dockerized environment
+- Dockerized environment  
 
 ## Prerequisites
 - [Docker](https://www.docker.com/) installed
-- Git installed in order to clone the repo
+- Git installed in order to clone the repo  
 
-*You do not need to have ROS 2 installed, as everything runs inside the Docker container*
+*You do not need to have ROS 2 installed, as everything runs inside the Docker container*  
 
 ## Installation
 1. Clone the repository:
